@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+            xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+            mc:Ignorable="d"
+            xmlns:ViewPages="clr-namespace:ALits.ViewPages"
+             x:Class="ALits.ViewPages.MainTabPage" >
+   
+    <TabbedPage.Children>
+        
+        <NavigationPage Title="Shopping" Icon="ShoppingWhite.png" >           
+            <x:Arguments>
+                <ViewPages:ShoppingPage/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Money" IconImageSource="MoneyWhite.png">
+            <x:Arguments>
+                <ViewPages:MoneyPage/>
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Task" IconImageSource="TaskWhite.png">
+            <x:Arguments>
+                <ViewPages:TaskToDoPage/>
+            </x:Arguments>
+        </NavigationPage>
+    </TabbedPage.Children>
+
+</TabbedPage>
