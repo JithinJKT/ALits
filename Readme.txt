@@ -1,2 +1,1 @@
-ALits project
-this is for testing everythin is fine
+ALits project in Xamarin
